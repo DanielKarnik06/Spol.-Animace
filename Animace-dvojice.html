@@ -1,0 +1,85 @@
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .Britanie{
+            height: 250px;
+            aspect-ratio: 1/1;
+            display: block;
+            animation: boj 3s 1 forwards alternate;
+        }
+
+        .Zanzibar{
+            height: 250px;
+            aspect-ratio: 1/1;
+            animation: boj2 3s 1 forwards alternate;
+        }
+
+
+        .Zbran_ZAN{
+            height: 180px;
+            aspect-ratio: 1/1;
+            position: absolute;
+            left: 500px;
+            top: 700px;
+            animation: vytahnutiZbrani 2s 1 alternate
+
+        }
+        .Zbran_VB{
+            height: 500px;
+            aspect-ratio: 1/1;
+            position: absolute;
+            right: 550px;
+            top: 40px;
+            animation: vytahnutiZbrani
+        }
+
+        @keyframes boj{
+            0%{
+
+            }
+            100%{
+                translate: 1300px 0 ;
+            }
+        }
+
+        @keyframes boj2{
+            0% {
+
+            }
+            100%{
+                translate: 300px 0;
+             }
+        }
+        @keyframes vytahnutiZbrani{
+            0% {
+
+            }
+            100% {
+                translate: 300px -200px;
+            }
+        } 
+            
+    </style>
+</head>
+<body>
+
+ <h1>Anglo-Zanzibarská válka</h1>
+
+    <button class="tlacitko">click</button>
+
+    <img src= "https://upload.wikimedia.org/wikipedia/commons/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg" alt="" class="Britanie">
+    <img src= "https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_the_Sultanate_of_Zanzibar.svg" alt="" class="Zanzibar">
+    <img src= "ak47.png" alt="" class="Zbran_ZAN">
+    <img src= "Muskatnuss.png" alt="" class="Zbran_VB"> 
+   
+    <script>
+       const tlacitko = document.querySelector(".tlacitko")
+
+        tlacitko.addEventListener()
+    </script>
+</body>
+</html>
